@@ -1,12 +1,12 @@
 :root {
   --main-text-col: #757575;
+  --alt-text-col: rgb(255, 255, 255, 0.6);
   --logo-web-col: #2196f3;
   --logo-studio-col: #000000;
   --alt-logo-studio-col: #ffffff;
   --main-title-col: #ffffff;
   --sub-title-col: #212121;
   --acent-col: #2196f3;
-  --alt-text-col: rgb(255, 255, 255, 0.6);
   --bg-head: #ffffff;
   --bg-hero: #2f303a;
   --bg-team: #f5f4fa;
@@ -106,10 +106,8 @@ body {
 .btn {
   width: 200px;
   height: 50px;
-  left: 700px;
-  top: 430px;
 
-  background: #2196f3;
+  background: var(--acent-col);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: var(--main-title-col);
